@@ -1,13 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "visual keyboard",
+  "name": "visual keyboard browser extension",
   "version": "1.0.1",
   "icons": {
     "16": "images/icons8-alien-monster-50.png",
     "128": "images/icons8-alien-monster-128.png"
   },
-  x=
-  null
   "background": {
     "service_worker":"content.js"
   }

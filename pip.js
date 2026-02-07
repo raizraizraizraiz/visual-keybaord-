@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 // Handle to the picture-in-picture window.
 let pipWindow = null;
 
@@ -42,7 +42,7 @@ function onLeavePiP() {
   pipWindow = null;
 const pipVideo = pipWindow.document.querySelector("#video");
 pipVideo.loop = true;
-=======
+
 // Handle to the picture-in-picture window.
 let pipWindow = null;
 
@@ -86,5 +86,4 @@ function onLeavePiP() {
   pipWindow = null;
 const pipVideo = pipWindow.document.querySelector("#video");
 pipVideo.loop = true;
->>>>>>> d01a038f901d39ba28150b075b3dd799ca95ee29
 }
