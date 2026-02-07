@@ -86,4 +86,4 @@ function onLeavePiP() {
   pipWindow = null;
 const pipVideo = pipWindow.document.querySelector("#video");
 pipVideo.loop = true;
-}
+}}
